@@ -2,3 +2,7 @@
 I only used HTML &amp; CSS when building this website. No Javascript was used. 
 
 Website is published at https://gaforov.github.io/my-html-css-website/
+
+Website snapshot:
+
+![This is an image](/HTMLCSSWebsiteHomepage.jpg)
