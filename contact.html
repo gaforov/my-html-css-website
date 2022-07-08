@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My HTML/CSS Website</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="page-container">
+        <div class="nav">
+            <nav>
+                <div class="logo">
+                    <img src="https://avatars.dicebear.com/api/adventurer/my-gallery-avatar4.svg?b=%23daa0a0&size=400"
+                        alt="">
+                    <div class="title">
+                        Only HTML/CSS Used | Contact
+                        <br>in buidling this wesbite
+                    </div>
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="/FinalProject/index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="/FinalProject/about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="/FinalProject/projects.html">Projects</a>
+                    </li>
+                    <li class="active">
+                        <a href="/FinalProject/contact.html">Contact</a>
+                    </li>
+                </ul>
+
+            </nav>
+        </div>
+
+        <div class="maintext">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum saepe quas similique explicabo laborum enim modi, culpa cumque ullam totam rem voluptatum labore, ratione odio atque ut quisquam corrupti dicta nobis soluta. Temporibus voluptates saepe odit maxime dolorem quam repellat.
+        </div>
+
+        <h3 class="title">Contact</h3>
+
+        <div class="container">
+            <form action="">
+                <label for="firstname">First Name</label>
+                <input type="text" name="fname" id="fname" placeholder="John">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lname" id="lname" placeholder="Doe">
+                <label for="country" id="country">Country</label>
+                <select name="country" id="country">
+                    <option value="usa">USA</option>
+                    <option value="canada">Canada</option>
+                    <option value="mexico">Mexico</option>
+                    <option value="england">England</option>
+                    <option value="germany">Germany</option>
+                </select>
+
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="8"></textarea>
+                <input type="submit" value="Submit">
+            </form>
+
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3312.207494699268!2d-118.4141617847894!3d33.88430958065197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c2b3eb1d814fed%3A0x6073445ba800f602!2sManhattan%20Beach%20Pier!5e0!3m2!1sen!2sus!4v1657218337845!5m2!1sen!2sus" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+        <div class="footer">
+            Copyright &copy; <script>document.write(new Date().getFullYear())</script> &#9679; Said's Website &#9679; All Rights Reserved
+        </div>
+    </div>
+</body>
+
+</html>
